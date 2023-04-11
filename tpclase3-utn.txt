@@ -1,0 +1,121 @@
+Trabajo Practico de la clase 3: Array y String
+alumno: Santillán Rafael Gabriel
+dias y horarios del curso: martes y jueves de 19hs a 21hs
+
+Direccion del repositorio : https://github.com/santillan-rafael-gabriel/clase3-tp-utn.git  
+
+Ejercicios resueltos: 
+
+   1.a_
+
+       public class ejercicio1a {
+
+	public static void main(String[] args) {
+
+		int[] numeros = new int[]{1,2,3,4,5,6,7,8,9,10,11,12,13,14,15} ;
+		
+		int i; 
+		for(i=0; i<=15; i++)
+			
+		{					
+		System.out.println( numeros [i]);
+		}
+		
+	}
+}
+-----------------------------------------------------------------------------------------------------------
+
+ 1.b_   
+     public class ejercicio1b {
+
+	public static void main(String[] args) {
+		
+int[] numeros = new int[]{1,2,3,4,5,6,7,8,9,10,11,12,13,14,15} ;
+		
+		int i; 
+		for(i=0; i<15; i++)
+			
+		{					
+		System.out.println( numeros [i]+5);
+		}
+	}
+
+}
+
+--------------------------------------------------------------------------------------------------------------
+
+ 1.c_
+     public class ejercicio1c {
+
+	public static void main(String[] args) {
+		
+		int[] numeros = new int[]{1,2,3,4,5,6,90,8,9,10} ;
+		int i; 
+		// en las posiciones de un array de 10 numeros consta empesando contando del 0 al 9
+		// es decir posicion 0 es 1, posicion 1 es 2, posicion 2 es 3, posicion 3 es 4, posicion 4 es 5, posicion 6 es 90 y ect.
+		// en el ejercicio es en la posicion 6 dividirlo por 3.
+		numeros [6] = 90/3;
+		for(i=0; i<10; i++)
+			
+			
+		{					
+		System.out.println( numeros [i]);
+		}
+		
+	}
+
+}
+
+-------------------------------------------------------------------------------------------------------------------------
+
+ 1.d_
+
+    public class ejercicio1d {
+
+	public static void main(String[] args) {
+		
+	String articulos[]={"pelota","guantes de arquero","mochila","botines"};
+	
+	
+	double precios[]={1000,600.60,7500.50,15000.70};
+	
+ 	System.out.println("Lista de Productos y sus precios");
+ 	
+ 		for (int e=0;e<articulos.length;e++)
+ 		{
+ 			System.out.println("Articulo " + articulos[e]+ " $"+ precios[e]);
+     }
+     
+	}
+
+}
+
+----------------------------------------------------------------------------------------------------------------------
+
+  1.e_
+
+    public class ejerciocio1e {
+
+	public static void main(String[] args) {
+		
+	 String materia[]={"matematicas","sociales","lengua"};
+	 
+	 int[] nota=new int[]{7,6,9};
+	 int promedio= (nota[0]+nota[1]+nota[2])/3;
+	 
+	 System.out.println("boletin del colegio");
+	 System.out.println("notas del alumno de cada materia");
+	 
+	 for (int e=0; e<materia.length; e++) {
+		 
+		 System.out.println(materia[e]+ " "+ nota[e]);
+	 }
+	 
+		System.out.println("promedio de las materias es: "+ promedio);		 
+	 
+	}
+
+}
+--------------------------------------------------------------------------------------------------------------------------
+
+repositorio: https://github.com/santillan-rafael-gabriel/clase3-tp-utn.git
